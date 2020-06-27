@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Hot-Stroi</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-pro-5.13.0-web/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="b-container">
+            <div class="b-menu">
+                <div class="b-bun b-bun--top"></div>
+                <div class="b-bun b-bun--mid"></div>
+                <div class="b-bun b-bun--bottom"></div>
+            </div>
+        </div>
+
+        <div class="b-nav">
+            <li>
+                <a href="/register.html">
+                    <i class="far fa-file-user fa-2x">
+
+                    </i> Войти
+                </a>
+            </li>
+
+            <li class="active">
+                <a href="/materials.html">
+                    Стройматериалы
+                </a>
+            </li>
+        
+            <li>
+                <a href="">
+                    Столярные изделия
+                </a>
+            </li>
+        
+            <li>
+                <a href="">
+                    Окна и двери
+                </a>                       
+            </li>                
+            <li>
+                <a href="">
+                    Электротовары
+                </a>                       
+            </li>
+        
+            <li>
+                <a href="">
+                    Инструменты
+                </a>                       
+            </li>
+        
+            <li>
+                <a href="">
+                    Напольные покрытия
+                </a>                       
+            </li>              
+            <li>
+                <a href="/tile.html">
+                    Плитка
+                </a>                      
+            </li>
+        
+            <li>
+                <a href="">
+                    Сантехника
+                </a>                     
+            </li>
+        
+            <li>
+                <a href="/water.html">
+                    Водоснабжение
+                </a>                   
+            </li>
+        
+            <li>
+                <a href="/garden.html">
+                    Сад
+                </a>              
+            </li>
+        
+            <li>
+                <a href="">
+                    Скобяные изделия
+                </a>           
+            </li>
+        
+            <li>
+                <a href="">
+                    Краски
+                </a>          
+            </li>
+        
+            <li>
+                <a href="">
+                    Декор
+                </a>                       
+            </li>
+        
+            <li>
+                <a href="">
+                    Освещение
+                </a>  
+            </li>
+        
+            <li>
+                <a href="">
+                    Хранение
+                </a>                       
+            </li>
+        
+            <li>
+                <a href="/kitchen.html">
+                    Кухни
+                </a>                     
+            </li>
+        </div>
+        
+        <img style="width: 5%; margin-left: 3%;" src="./img/Logo.svg" alt="">
+
+        <div class="header-center">
+            <div class="header-center-text">
+                <p style="margin-bottom: 5%;">
+                    <a style="color: #FC5454;">H</a>ot - 
+                    <a style="color: #FC5454;">S</a>troi - это магазин стройтельных материалов 
+                </p>
+            </div>
+            <div class="header-center-search">
+                <div class="input-wrapper">
+                    <input class="input" type="text" placeholder=" " data-placeholder="E-mail" required>
+                    <span class="placeholder">Поиск товаров</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="call-support">
+            <span style="font-size: 2rem;">
+                <i style="color: #FC5454;" class="far fa-phone"></i>
+            </span>
+            
+            <p>+7 (800)-123-45-67</p>
+        </div>
+
+        <div style="margin: 1.5%;" class="basket">
+            <span style="font-size: 1.6rem;">
+                <i class="far fa-shopping-basket"></i>
+            </span>
+        </div>
+    </header>
+
+    <header class="header-mobile">
+        <div class="b-container-mobile">
+            <div class="b-menu-mobile">
+                <div class="b-bun b-bun--top-mobile"></div>
+                <div class="b-bun b-bun--mid-mobile"></div>
+                <div class="b-bun b-bun--bottom-mobile"></div>
+            </div>
+        </div>
+
+        <div class="b-nav-mobile">
+            <li>
+                <a href="/register.html">
+                    <i class="far fa-file-user fa-2x">
+
+                    </i> Войти
+                </a>
+            </li>
+
+            <li class="active">
+                <a href="/index.html">
+                    Главная
+                </a>
+            </li>
+
+            <li class="active">
+                <a href="/materials.html">
+                    Стройматериалы
+                </a>
+            </li>
+        
+            <li>
+                <a href="">
+                    Столярные изделия
+                </a>
+            </li>
+        
+            <li>
+                <a href="">
+                    Окна и двери
+                </a>                       
+            </li>                
+            <li>
+                <a href="">
+                    Электротовары
+                </a>                       
+            </li>
+        
+            <li>
+                <a href="">
+                    Инструменты
+                </a>                       
+            </li>
+        
+            <li>
+                <a href="">
+                    Напольные покрытия
+                </a>                       
+            </li>              
+            <li>
+                <a href="/tile.html">
+                    Плитка
+                </a>                      
+            </li>
+        
+            <li>
+                <a href="">
+                    Сантехника
+                </a>                     
+            </li>
+        
+            <li>
+                <a href="/water.html">
+                    Водоснабжение
+                </a>                   
+            </li>
+        
+            <li>
+                <a href="/garden.html">
+                    Сад
+                </a>              
+            </li>
+        
+            <li>
+                <a href="">
+                    Скобяные изделия
+                </a>           
+            </li>
+        
+            <li>
+                <a href="">
+                    Краски
+                </a>          
+            </li>
+        
+            <li>
+                <a href="">
+                    Декор
+                </a>                       
+            </li>
+        
+            <li>
+                <a href="">
+                    Освещение
+                </a>  
+            </li>
+        
+            <li>
+                <a href="">
+                    Хранение
+                </a>                       
+            </li>
+        
+            <li>
+                <a href="/kitchen.html">
+                    Кухни
+                </a>                     
+            </li>
+        </div>
+
+        <div class="serach">
+            <span style="font-size: 1.6rem;">
+                <i class="fas fa-search"></i>
+            </span>
+        </div>
+
+        <div class="text">
+            <p style="margin-bottom: 5%;">
+                <a style="color: #FC5454;">H</a>ot - 
+                <a style="color: #FC5454;">S</a>troi
+            </p>
+        </div>
+
+        <div class="basket">
+            <span style="font-size: 1.6rem;">
+                <i class="fas fa-shopping-basket"></i>
+            </span>
+        </div>
+    </header>
+
+
+
+
+
+    <div class="navigation">
+        <nav class="nav">
+            <ul style="width: 70%;">
+                <li><a href="/index.html">Главная</a></li>
+                <li><a href="/materials.html">Стройматериалы</a></li>
+                <li><a href="/garden.html">Сад</a></li>
+                <li><a href="/water.html">Водоснабжение</a></li>
+                <li><a href="/tile.html">Плитка</a></li>
+                <li><a href="/kitchen.html">Кухня</a></li>
+            </ul>
+
+            <ul style="width: 30%; justify-content: flex-end">
+                <li><a href="">Рус </a><i class="far fa-sort-down"></i></li>
+                <li><a href="/register.html"><i class="far fa-file-user fa-2x"></i> Войти</a></li>
+            </ul>
+        </nav>
+
+    </div>
+
+
+
+
+
+    <h2 style="margin-top: 2%;">Кухни</h2>
+
+    <div class="materials-content">
+        <aside class="catalog-left-panel">
+            <nav class="leftmenu-small">
+                <ul>
+                    <li>
+                        <a href="/materials.html">
+                            Стройматериалы
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="">
+                            Столярные изделия
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="">
+                            Окна и двери
+                        </a>                       
+                    </li>                
+                    <li>
+                        <a href="">
+                            Электротовары
+                        </a>                       
+                    </li>
+                
+                    <li>
+                        <a href="">
+                            Инструменты
+                        </a>                       
+                    </li>
+                
+                    <li>
+                        <a href="">
+                            Напольные покрытия
+                        </a>                       
+                    </li>              
+                    <li>
+                        <a href="/tile.html">
+                            Плитка
+                        </a>                      
+                    </li>
+                
+                    <li>
+                        <a href="">
+                            Сантехника
+                        </a>                     
+                    </li>
+                
+                    <li>
+                        <a href="/water.html">
+                            Водоснабжение
+                        </a>                   
+                    </li>
+                
+                    <li>
+                        <a href="/garden.html">
+                            Сад
+                        </a>              
+                    </li>
+                
+                    <li>
+                        <a href="">
+                            Скобяные изделия
+                        </a>           
+                    </li>
+                
+                    <li>
+                        <a href="">
+                            Краски
+                        </a>          
+                    </li>
+                
+                    <li>
+                        <a href="">
+                            Декор
+                        </a>                       
+                    </li>
+                
+                    <li>
+                        <a href="">
+                            Освещение
+                        </a>  
+                    </li>
+                
+                    <li>
+                        <a href="">
+                            Хранение
+                        </a>                       
+                    </li>
+                
+                    <li class="active">
+                        <a href="/kitchen.html">
+                            Кухни
+                        </a>                     
+                    </li>
+                
+                    <li class="banner">
+                        <a href="">
+                            <img style="width: 18.3vw;" alt="" src="//res.cloudinary.com/lmru-test/image/upload/elbrus/images/kolichestvo_ogranicheno/vigodnaya_pokupka.png">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            
+            <div class="root-banner section">
+                <div class="root-banner_wrapper ">
+                    <img style="width: 99%;" class="banner-image" src="//res.cloudinary.com/lmru-test/image/upload/f_auto,q_auto,c_pad,b_white,d_photoiscoming.png/elbrus/images/banners2020/fasady-kuhni-1805.jpg">
+                </div>
+            </div>
+
+            <div class="root-banner section">
+                <div class="root-banner_wrapper ">
+                    <img style="width: 99%;" class="banner-image" src="//res.cloudinary.com/lmru-test/image/upload/f_auto,q_auto,c_pad,b_white,d_photoiscoming.png/elbrus/images/banners2019/predlozhenie-mesyaca-kuhni.jpg">
+                </div>
+            </div>
+        </aside>
+
+        <main class="materials-main">
+            <div class="title-img">
+                <picture>
+                    <img style="width: 100%;" class="banner-image" src="//res.cloudinary.com/lmru-test/image/upload/f_auto,q_auto,c_pad,b_white,d_photoiscoming.png/elbrus/images/кухни/kuni_zapis.png">
+                </picture>
+            </div>
+            
+            <div class="section-card">
+                <picture>
+                    <img src="//res.cloudinary.com/lmru-test/image/upload/f_auto,q_auto,w_205,h_205,c_pad,b_white,d_photoiscoming.png/elbrus/images/category-images/15-kuhni/mebel-dlya-kuhni.jpg" alt="Мебель для кухни">
+                </picture>
+
+                <h6>Мебель для кухни</h3>
+
+                <nav class="section-card-nav">
+                    <ul>
+                        <li>
+                            <a href=""><span class="section-card-text">Корпуса шкафов для проектных кухонь</span></a>
+                        </li>
+
+                        <li>
+                            <a href=""><span class="section-card-text">Фасады шкафов для проектных кухонь</span></a>
+                        </li>
+
+                        <li>
+                            <a href=""><span class="section-card-text">Модульные кухни</span></a>
+                        </li>
+
+                        <li>
+                            <a href=""><span class="section-card-text">Цоколи для кухни и комплектующие</span></a>
+                        </li>
+
+                        <li>
+                            <a href=""><span class="section-card-text">Кухонные столы</span></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="section-card">
+                <picture>
+                    <img src="//res.cloudinary.com/lmru-test/image/upload/f_auto,q_auto,w_205,h_205,c_pad,b_white,d_photoiscoming.png/elbrus/images/category-images/15-kuhni/stoleshnicy-i-komplektuyushchie.png" alt="Столешницы и комплектующие">
+                </picture>
+
+                <h6>Столешницы и комплектующие</h3>
+
+                <nav class="section-card-nav">
+                    <ul>
+                        <li>
+                            <a href=""><span class="section-card-text">Столешницы</span></a>
+                        </li>
+
+                        <li>
+                            <a href=""><span class="section-card-text">Планки и комплекты для установки столешниц</span></a>
+                        </li>
+
+                        <li>
+                            <a href=""><span class="section-card-text">Кромочный пластик для кухонных столешниц</span></a>
+                        </li>
+
+                        <li>
+                            <a href=""><span class="section-card-text">Плинтусы для кухонных столешниц</span></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="section-card">
+                <picture>
+                    <img src="//res.cloudinary.com/lmru-test/image/upload/f_auto,q_auto,w_205,h_205,c_pad,b_white,d_photoiscoming.png/elbrus/images/category-images/15-kuhni/stenovye-paneli.jpg" alt="Стеновые панели">
+                </picture>
+
+                <h6>Стеновые панели</h3>
+
+                <nav class="section-card-nav">
+                    <ul>   
+                        <li>
+                            <a href="">
+                                <span class="section-card-text">Стеновые панели для кухни</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="">
+                                <span class="section-card-text">Планки для стеновых кухонных панелей</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="section-card">
+                <picture>
+                    <img src="//res.cloudinary.com/lmru-test/image/upload/f_auto,q_auto,w_205,h_205,c_pad,b_white,d_photoiscoming.png/elbrus/images/category-images/15-kuhni/moyki-i-smesiteli-dlya-kuhni.png" alt="Мойки и смесители для кухни">
+                </picture>
+
+                <h6>Мойки и смесители для кухни</h3>
+
+                <nav class="section-card-nav">
+                    <ul>   
+                        <li>
+                            <a href="">
+                                <span class="section-card-text">Кухонные мойки</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="">
+                                <span class="section-card-text">Кухонные смесители</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="">
+                                <span class="section-card-text">Сифоны для кухонной мойки</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="">
+                                <span class="section-card-text">Измельчители пищевых отходов</span>
+                            </a>   
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="section-card">
+                <picture>
+                    <img src="//res.cloudinary.com/lmru-test/image/upload/f_auto,q_auto,w_205,h_205,c_pad,b_white,d_photoiscoming.png/elbrus/images/category-images/15-kuhni/bytovaya-tehnika.jpeg" alt="Бытовая техника для кухни">
+                </picture>
+
+                <h6>Бытовая техника для кухни</h3>
+
+                <nav class="section-card-nav">
+                    <ul>   
+                        <li>
+                            <a href="">
+                                <span class="section-card-text">Варочные панели</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="">
+                                <span class="section-card-text">Духовные шкафы</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="">
+                                <span class="section-card-text">Вытяжки для кухни</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="">
+                                <span class="section-card-text">Посудомоечные машины</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="">
+                                <span class="section-card-text">Фильтры для кухонных вытяжек и аксессуары</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="catalog-first-section section">
+                <div class="category-description">
+                    <div class="layout">
+                        <div class="text">
+                            <h2>Особенности выбора кухни</h2>
+                            
+                            <p>К кухне предъявляются противоречивые требования: она должна быть одновременно стильной, функциональной и эргономичной, то есть комфортной во 
+                                время пользования ею. Кухонную мебель (столы, буфеты, полки, а также табуреты и прочие элементы) можно собрать по отдельности. Но иногда 
+                                проще отдать предпочтение готовым кухням.</p><h2>Обустройство маленькой кухни</h2><p>В магазинах кухонной мебели всегда можно найти варианты 
+                                гарнитуров для небольших помещений. Малогабаритные кухни отличаются компактностью и высокой оптимизацией рабочего пространства. В небольших 
+                                помещениях удобно использовать встроенные кухни, так как очень важно по максимуму использовать свободное пространство. И кухонные гарнитуры 
+                                для маленькой кухни отлично справляются со своей задачей.</p><p>В небольших кухонных комнатах максимально сокращен по площади рабочий треугольник: 
+                                стол – плита – мойка. Да и сами столы для кухни выбираются с малой площадью столешницы, которые при необходимости раскладываются. Цены кухонь небольших 
+                                размеров выгодно отличаются от массивных гарнитуров. Кроме того, существуют деления на классы. Чтобы максимально сэкономить, следует выбрать кухни эконом-класса.
+                            </p>
+                            
+                            <h2>Собрать кухню или купить готовую?</h2>
+                            
+                            <p>Если ваша приоритетная задача – купить кухню недорого, то лучше отдельно приобрести столы, мойки, полки и буфеты. Но у такого способа есть существенные недостатки:</p>
+                            
+                            <ul>
+                                <li>Страдает дизайн кухни: подобрать по отдельности мебель, органично сочетающуюся друг с другом, очень сложно.</li>
+                                <li>Отсутствие оптимизации рабочего пространства.</li>
+                                <li>Покупка кухни будет продолжительной во времени, так как все ее элементы приобретаются отдельно друг от друга.</li>
+                            </ul>
+                            
+                            <p>Но чтобы собрать кухню дешево, не обязательно подбирать кухонную мебель по отдельности. В качестве альтернативы магазины предлагают кухни эконом-класса. Это кухонные 
+                                гарнитуры из доступных материалов, выполненные в едином стиле – дизайн интерьера кухни страдать не будет. Более того, гарнитуры позволяют использовать свободное 
+                                пространство по максимуму, они эргономичны и удобны в использовании.
+                            </p>
+                            
+                            <h2>Где купить кухню недорого?</h2>
+                            
+                            <p> Есть два варианта. Первый – это приобретение мебели или кухни в интернет-магазине. Главным преимуществом такого способа покупки является отсутствие необходимости 
+                                посещать множество магазинов, чтобы ознакомиться с ассортиментом. Купить кухню в интернет-магазине очень просто: достаточно оформить заявку. Но есть и недостаток: 
+                                гарнитур, который отлично выглядел на фотографии, в реальности может разочаровать.</p><p>Чтобы выбрать кухонную мебель, можно отправиться в магазины, где есть все для 
+                                кухни. Так проще выбрать именно то, что планировалось, так как можно произвести замеры на месте, попробовать на ощупь материалы и оценить качество. Недорогие кухни можно 
+                                выбрать как в мебельном магазине, так и в интернет-каталоге.</p><p>Леруа Мерлен предлагает широкий выбор товаров по низким ценам для жителей Москвы, а также городов 
+                                Московской области: Балашиха, Подольск, Химки, Королёв, Мытищи, Люберцы, Красногорск, Электросталь, Коломна, Одинцово, Домодедово, Серпухов, Щёлково, Орехово-Зуево, 
+                                Раменское, Долгопрудный, Жуковский, Пушкино, Реутов, Сергиев Посад, Воскресенск, Лобня, Клин, Ивантеевка, Дубна, Егорьевск, Чехов, Дмитров, Видное, Ступино, Павловский Посад, 
+                                Наро-Фоминск, Фрязино, Лыткарино, Дзержинский и Солнечногорск. Вы можете заказать необходимые товары онлайн с доставкой во все эти города или посетить один из наших розничных 
+                                <a href="index.html">магазинов в Москве и МО</a>.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+
+
+
+
+    <footer class="footer">
+        <div class="footer-main-content">
+            <div class="footer-column">
+                <p style="font-weight: 500;"><a style="color: #FC5454;">H</a>ot - <a style="color: #FC5454;">S</a>troi - это магазин стройтельных материалов </p>
+                <p style="margin-top: 5%;">Copyright © 2020 </p>
+                <p>Принимаем к оплате</p>
+                <div class="pay">
+                    <i style="color: red;" class="fab fa-cc-visa fa-2x"></i>
+                    <i style="color: red;" class="fab fa-cc-mastercard fa-2x"></i>
+                </div>
+            </div>
+
+            <div class="footer-column">
+                <p>Каталог</p>
+                <p><a href="./materials.html">Стройматериалы</a></p>
+                <p><a href="./garden.html">Сад</a></p>
+                <p><a href="./water.html"></a>Водоснабжение</p>
+                <p><a href="./tile.html">Плитка</a></p>
+                <p><a href="./kitchen.html">Кухня</a></p>
+            </div>
+            <div class="footer-column">
+                <p>Клиентам</p>
+                <p>Каталог</p>
+                <p>о нас</p>
+                <p>Оплата и доставка</p>
+                <p>Обмен и возврат</p>
+                <p>Мы в соцсетях</p>
+            </div>
+            <div class="footer-column">
+                <p>Контактная информация</p>
+                <p>+7 800 143 45 67</p>
+                <p>Перезвонить вам?</p>
+                <p>Эл. почта: ihot-stro@gmail.com
+                    Skype: hotstroi24</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="footer-bottom-mobile">
+                <p><i style="color: red;" class="fas fa-mobile-alt fa-3x"></i> Мобильная версия</p>
+            </div>
+            <div class="feedback">
+                <button id="feed-button" class="open-feed jump" data-toggle-id="subscribe">
+                    Обратная связь
+                </button>
+            </div>
+            <div style="margin-bottom: 2%" class="footer-bottom-social">
+                <i style="color: red;" class="fab fa-vk fa-3x"></i>
+                <i style="color: red;" class="fab fa-twitter fa-3x"></i>
+                <i style="color: red;" class="fab fa-telegram-plane fa-3x"></i>
+            </div>
+        </div>
+    </footer>
+
+    <div class="ufive-feedback">
+        <section id="feedback">
+            <h1>Форма обратной связи</h1>
+            <form>
+        
+                <div class="field name-box">
+                    <input type="text" id="name" placeholder="Как Вас зовут?" />
+                    <label for="name">Имя</label>
+                </div>
+            
+                <div class="field email-box">
+                    <input type="text" id="email" placeholder="Ваш e-mail адрес" />
+                    <label for="email">E-mail</label>
+                </div>
+            
+                <div class="field msg-box">
+                    <textarea id="msg" rows="4" placeholder="Излагайте ваш вопрос четко и подробно" /></textarea>
+                    <label for="msg">Текст</label>
+                </div>
+            
+                <input class="button" type="submit" value="Отправить" />
+            </form>
+        </section>
+    </div>
+
+    <footer class="footer-mobile">
+        <nav class="footer-mobile-nav">
+            <ul>
+                <li>
+                    <a style="color: #FC5454;" href="">+7 (800)-123-45-67</a>
+                </li>
+
+                <li>
+                    <a href="">Контактная информация</a>
+                </li>
+
+                <li>
+                    <a href="">Полная версия сайта</a>
+                </li>
+
+                <li>
+                    <a href="">О компании</a>
+                </li>
+
+                <li>
+                    <a href="">Copyright © 2020 </a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+
+    <footer class="footer-laptop">
+        <div style="margin-bottom: 5%;" class="footer-column">
+            <p style="font-weight: 500;"><a style="color: #FC5454;">H</a>ot - <a style="color: #FC5454;">S</a>troi - это магазин стройтельных материалов </p>
+            <p style="margin-top: 5%;">Copyright © 2020 </p>
+            <p>Принимаем к оплате</p>
+            <div class="pay">
+                <i style="color: red;" class="fab fa-cc-visa fa-2x"></i>
+                <i style="color: red;" class="fab fa-cc-mastercard fa-2x"></i>
+            </div>
+        </div>
+
+        <nav class="footer-mobile-nav">
+            <ul>
+                <li>
+                    <a style="color: #FC5454;" href="">+7 (800)-123-45-67</a>
+                </li>
+
+                <li>
+                    <a href="">Контактная информация</a>
+                </li>
+
+                <li>
+                    <a href="">Полная версия сайта</a>
+                </li>
+
+                <li>
+                    <a href="">О компании</a>
+                </li>
+
+                <li>
+                    <a href="">Copyright © 2020 </a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+
+
+
+    
+
+    <script src="/js/script.js"></script>
+
+    <script>
+        ( function () {
+    const burgerMenu = document.getElementsByClassName('b-menu')[0];
+    const burgerContain = document.getElementsByClassName('b-container')[0];
+    const burgerNav = document.getElementsByClassName('b-nav')[0];
+
+    burgerMenu.addEventListener('click', function toggleClasses() {
+        [document.body, burgerContain, burgerNav].forEach( function (el) {
+            el.classList.toggle('open');
+        });
+    }, false);
+})();
+
+
+//mobile
+( function () {
+    const burgerMenu = document.getElementsByClassName('b-menu-mobile')[0];
+    const burgerContain = document.getElementsByClassName('b-container-mobile')[0];
+    const burgerNav = document.getElementsByClassName('b-nav-mobile')[0];
+
+    burgerMenu.addEventListener('click', function toggleClasses() {
+        [document.body, burgerContain, burgerNav].forEach(function (el) {
+            el.classList.toggle('open');
+        });
+    }, false);
+})();
+    </script>
+</body>
+</html>

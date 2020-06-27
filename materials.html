@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Hot-Stroi</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-pro-5.13.0-web/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="b-container">
+            <div class="b-menu">
+                <div class="b-bun b-bun--top"></div>
+                <div class="b-bun b-bun--mid"></div>
+                <div class="b-bun b-bun--bottom"></div>
+            </div>
+        </div>
+
+        <div class="b-nav">
+            <li>
+                <a href="/register.html">
+                    <i class="far fa-file-user fa-2x">
+
+                    </i> Войти
+                </a>
+            </li>
+
+            <li class="active">
+                <a href="/materials.html">
+                    Стройматериалы
+                </a>
+            </li>
+        
+            <li>
+                <a href="">
+                    Столярные изделия
+                </a>
+            </li>
+        
+            <li>
+                <a href="">
+                    Окна и двери
+                </a>                       
+            </li>                
+            <li>
+                <a href="">
+                    Электротовары
+                </a>                       
+            </li>
+        
+            <li>
+                <a href="">
+                    Инструменты
+                </a>                       
+            </li>
+        
+            <li>
+                <a href="">
+                    Напольные покрытия
+                </a>                       
+            </li>              
+            <li>
+                <a href="/tile.html">
+                    Плитка
+                </a>                      
+            </li>
+        
+            <li>
+                <a href="">
+                    Сантехника
+                </a>                     
+            </li>
+        
+            <li>
+                <a href="/water.html">
+                    Водоснабжение
+                </a>                   
+            </li>
+        
+            <li>
+                <a href="/garden.html">
+                    Сад
+                </a>              
+            </li>
+        
+            <li>
+                <a href="">
+                    Скобяные изделия
+                </a>           
+            </li>
+        
+            <li>
+                <a href="">
+                    Краски
+                </a>          
+            </li>
+        
+            <li>
+                <a href="">
+                    Декор
+                </a>                       
+            </li>
+        
+            <li>
+                <a href="">
+                    Освещение
+                </a>  
+            </li>
+        
+            <li>
+                <a href="">
+                    Хранение
+                </a>                       
+            </li>
+        
+            <li>
+                <a href="/kitchen.html">
+                    Кухни
+                </a>                     
+            </li>
+        </div>
+        
+        <img style="width: 5%; margin-left: 3%;" src="./img/Logo.svg" alt="">
+
+        <div class="header-center">
+            <div class="header-center-text">
+                <p style="margin-bottom: 5%;">
+                    <a style="color: #FC5454;">H</a>ot - 
+                    <a style="color: #FC5454;">S</a>troi - это магазин стройтельных материалов 
+                </p>
+            </div>
+            <div class="header-center-search">
+                <div class="input-wrapper">
+                    <input class="input" type="text" placeholder=" " data-placeholder="E-mail" required>
+                    <span class="placeholder">Поиск товаров</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="call-support">
+            <span style="font-size: 2rem;">
+                <i style="color: #FC5454;" class="far fa-phone"></i>
+            </span>
+            
+            <p>+7 (800)-123-45-67</p>
+        </div>
+
+        <div style="margin: 1.5%;" class="basket">
+            <span style="font-size: 1.6rem;">
+                <i class="far fa-shopping-basket"></i>
+            </span>
+        </div>
+    </header>
+
+    <header class="header-mobile">
+        <div class="b-container-mobile">
+            <div class="b-menu-mobile">
+                <div class="b-bun b-bun--top-mobile"></div>
+                <div class="b-bun b-bun--mid-mobile"></div>
+                <div class="b-bun b-bun--bottom-mobile"></div>
+            </div>
+        </div>
+
+        <div class="b-nav-mobile">
+            <li>
+                <a href="/register.html">
+                    <i class="far fa-file-user fa-2x">
+
+                    </i> Войти
+                </a>
+            </li>
+
+            <li class="active">
+                <a href="/index.html">
+                    Главная
+                </a>
+            </li>
+
+            <li class="active">
+                <a href="/materials.html">
+                    Стройматериалы
+                </a>
+            </li>
+        
+            <li>
+                <a href="">
+                    Столярные изделия
+                </a>
+            </li>
+        
+            <li>
+                <a href="">
+                    Окна и двери
+                </a>                       
+            </li>                
+            <li>
+                <a href="">
+                    Электротовары
+                </a>                       
+            </li>
+        
+            <li>
+                <a href="">
+                    Инструменты
+                </a>                       
+            </li>
+        
+            <li>
+                <a href="">
+                    Напольные покрытия
+                </a>                       
+            </li>              
+            <li>
+                <a href="/tile.html">
+                    Плитка
+                </a>                      
+            </li>
+        
+            <li>
+                <a href="">
+                    Сантехника
+                </a>                     
+            </li>
+        
+            <li>
+                <a href="/water.html">
+                    Водоснабжение
+                </a>                   
+            </li>
+        
+            <li>
+                <a href="/garden.html">
+                    Сад
+                </a>              
+            </li>
+        
+            <li>
+                <a href="">
+                    Скобяные изделия
+                </a>           
+            </li>
+        
+            <li>
+                <a href="">
+                    Краски
+                </a>          
+            </li>
+        
+            <li>
+                <a href="">
+                    Декор
+                </a>                       
+            </li>
+        
+            <li>
+                <a href="">
+                    Освещение
+                </a>  
+            </li>
+        
+            <li>
+                <a href="">
+                    Хранение
+                </a>                       
+            </li>
+        
+            <li>
+                <a href="/kitchen.html">
+                    Кухни
+                </a>                     
+            </li>
+        </div>
+
+        <div class="serach">
+            <span style="font-size: 1.6rem;">
+                <i class="fas fa-search"></i>
+            </span>
+        </div>
+
+        <div class="text">
+            <p style="margin-bottom: 5%;">
+                <a style="color: #FC5454;">H</a>ot - 
+                <a style="color: #FC5454;">S</a>troi
+            </p>
+        </div>
+
+        <div class="basket">
+            <span style="font-size: 1.6rem;">
+                <i class="fas fa-shopping-basket"></i>
+            </span>
+        </div>
+    </header>
+
+
+
+
+
+    <div class="navigation">
+        <nav class="nav">
+            <ul style="width: 70%;">
+                <li><a href="/index.html">Главная</a></li>
+                <li><a href="/materials.html">Стройматериалы</a></li>
+                <li><a href="/garden.html">Сад</a></li>
+                <li><a href="/water.html">Водоснабжение</a></li>
+                <li><a href="/tile.html">Плитка</a></li>
+                <li><a href="/kitchen.html">Кухня</a></li>
+            </ul>
+
+            <ul style="width: 30%; justify-content: flex-end">
+                <li><a href="">Рус </a><i class="far fa-sort-down"></i></li>
+                <li><a href="/register.html"><i class="far fa-file-user fa-2x"></i> Войти</a></li>
+            </ul>
+        </nav>
+
+    </div>
+
+
+
+
+
+    <h2 style="margin-top: 2%;">Стройматериалы</h2>
+
+    <div class="materials-content">
+        <aside class="catalog-left-panel">
+            <nav class="leftmenu-small">
+                <ul>
+                    <li class="active">
+                        <a href="/materials.html">
+                            Стройматериалы
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="">
+                            Столярные изделия
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="">
+                            Окна и двери
+                        </a>                       
+                    </li>                
+                    <li>
+                        <a href="">
+                            Электротовары
+                        </a>                       
+                    </li>
+                
+                    <li>
+                        <a href="">
+                            Инструменты
+                        </a>                       
+                    </li>
+                
+                    <li>
+                        <a href="">
+                            Напольные покрытия
+                        </a>                       
+                    </li>              
+                    <li>
+                        <a href="/tile.html">
+                            Плитка
+                        </a>                      
+                    </li>
+                
+                    <li>
+                        <a href="">
+                            Сантехника
+                        </a>                     
+                    </li>
+                
+                    <li>
+                        <a href="/water.html">
+                            Водоснабжение
+                        </a>                   
+                    </li>
+                
+                    <li>
+                        <a href="/garden.html">
+                            Сад
+                        </a>              
+                    </li>
+                
+                    <li>
+                        <a href="">
+                            Скобяные изделия
+                        </a>           
+                    </li>
+                
+                    <li>
+                        <a href="">
+                            Краски
+                        </a>          
+                    </li>
+                
+                    <li>
+                        <a href="">
+                            Декор
+                        </a>                       
+                    </li>
+                
+                    <li>
+                        <a href="">
+                            Освещение
+                        </a>  
+                    </li>
+                
+                    <li>
+                        <a href="">
+                            Хранение
+                        </a>                       
+                    </li>
+                
+                    <li>
+                        <a href="/kitchen.html">
+                            Кухни
+                        </a>                     
+                    </li>
+                
+                    <li class="banner">
+                        <a href="">
+                            <img style="width: 18vw;" alt="" src="//res.cloudinary.com/lmru-test/image/upload/elbrus/images/kolichestvo_ogranicheno/vigodnaya_pokupka.png">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            
+            <div class="root-banner section">
+                <div class="root-banner_wrapper ">
+                    <img style="width: 97%;" class="banner-image" src="//res.cloudinary.com/lmru-test/image/upload/f_auto,q_auto,c_pad,b_white,d_photoiscoming.png/elbrus/images/banners2019/shumoizolyaciya-dlya-sten-i-pola.jpg">
+                </div>
+            </div>   
+        </aside>
+
+        <main class="materials-main">
+            <div class="title-img">
+                <picture>
+                    <img style="width: 100%;" class="banner-image" src="//res.cloudinary.com/lmru-test/image/upload/f_auto,q_auto,c_pad,b_white,d_photoiscoming.png/elbrus/images/banners2020/vsyo-dlya-remonta-category.jpg">
+                </picture>
+            </div>
+            <div class="section-card">
+                <picture>
+                    <img src="//res.cloudinary.com/aem/image/upload/f_auto,q_auto,w_205,h_205,c_pad,b_white,d_photoiscoming.png/v1507292422/catalogue/suhie-smesi-i-gruntovki.jpg" alt="Сухие смеси и грунтовки">
+                </picture>
+
+                <h6>Сухие смеси и грунтовки</h3>
+
+                <nav class="section-card-nav">
+                    <ul>
+                        <li>
+                            <a href="">Штукатурки</a>
+                        </li>
+
+                        <li>
+                            <a href="">Шпаклевки</a>
+                        </li>
+
+                        <li>
+                            <a href="">Смеси для пола</a>
+                        </li>
+
+                        <li>
+                            <a href="">Штукатурные профили</a>
+                        </li>
+
+                        <li>
+                            <a href="">Штукатурные сетки</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="section-card">
+                <picture>
+                    <img src="//res.cloudinary.com/lmru-test/image/upload/f_auto,q_auto,w_205,h_205,c_pad,b_white,d_photoiscoming.png/elbrus/images/category-images/01-stroyka/listovye-2.jpg" alt="Листовые материалы">
+                </picture>
+
+                <h6>Листовые материалы</h3>
+
+                <nav class="section-card-nav">
+                    <ul>
+                        <li>
+                            <a href="">Гипсокартон</a>
+                        </li>
+
+                        <li>
+                            <a href="">Гипсоволокнистые листы</a>
+                        </li>
+
+                        <li>
+                            <a href="">Цементно-струженные плиты</a>
+                        </li>
+
+                        <li>
+                            <a href="">Стекломагнивые листы</a>
+                        </li>
+
+                        <li>
+                            <a href="">Аквапанели</a>
+                        </li>
+
+                        <li>
+                            <a href="">Профиль для гипсокартона</a>
+                        </li>
+
+                        <li>
+                            <a href="">Уплотнительная лента</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="section-card">
+                <picture>
+                    <img src="//res.cloudinary.com/aem/image/upload/f_auto,q_auto,w_205,h_205,c_pad,b_white,d_photoiscoming.png/v1507292424/catalogue/stroitelstvo-sten-i-peregorodok.jpg" alt="Блоки для строительства">
+                </picture>
+
+                <h6>Блоки для строительства</h3>
+
+                <nav class="section-card-nav">
+                    <ul>   
+                        <li>
+                            <a href="">
+                                <span class="section-card-text">Блоки строительные</span>
+                            </a>
+                            
+                        </li>
+
+                        <li>
+                            <a href="">
+                                <span class="section-card-text">Плиты пазогребневые</span>
+                            </a>
+                            
+                        </li>
+
+                        <li>
+                            <a href="">
+                                <span class="section-card-text">Кирпич</span>
+                            </a>
+                            
+                        </li>
+
+                        <li>
+                            <a href="">
+                                <span class="section-card-text">Стеклоблоки</span>
+                            </a>
+                            
+                        </li>
+
+                        <li>
+                            <a href="">
+                                <span class="section-card-text">Тротуарная плитка</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="section-card">
+                <picture>
+                    <img src="//res.cloudinary.com/aem/image/upload/f_auto,q_auto,w_205,h_205,c_pad,b_white,d_photoiscoming.png/v1507292426/catalogue/izolyacionnye-materialy.jpg" alt="Изоляционные материалы">
+                </picture>
+
+                <h6>Изоляционные материалы</h3>
+
+                <nav class="section-card-nav">
+                    <ul>   
+                        <li>
+                            <a href="">
+                                <span class="section-card-text">Теплоизоляция</span>
+                            </a>
+                            
+                        </li>
+
+                        <li>
+                            <a href="/catalogue/plity-pazogrebnevye/">
+                                <span class="section-card-text">Пароизоляция</span>
+                            </a>
+                            
+                        </li>
+
+                        <li>
+                            <a href="/catalogue/kirpich/">
+                                <span class="section-card-text">Шумоизоляция</span>
+                            </a>
+                            
+                        </li>
+
+                        <li>
+                            <a href="/catalogue/steklobloki/">
+                                <span class="section-card-text">Гидроизоляция</span>
+                            </a>
+                            
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="section-card">
+                <picture>
+                    <img src="//res.cloudinary.com/lmru-test/image/upload/f_auto,q_auto,w_205,h_205,c_pad,b_white,d_photoiscoming.png/elbrus/images/category-images/01-stroyka/Krovlya.png" alt="Кровля">
+                </picture>
+
+                <h6>Листовые материалы</h3>
+
+                <nav class="section-card-nav">
+                    <ul>
+                        <li><a href="">Гипсокартон</a></li>
+                        <li><a href="">Гипсоволокнистые листы</a></li>
+                        <li><a href="">Цементно-струженные плиты</a></li>
+                        <li><a href="">Стекломагнивые листы</a></li>
+                        <li><a href="">Аквапанели</a></li>
+                        <li><a href="">Профиль для гипсокартона</a></li>
+                        <li><a href="">Уплотнительная лента</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="catalog-first-section section">
+                <div class="category-description">
+                    <div class="layout">
+                        <div class="text">
+                            <h2>Для чего нужны листовые материалы</h2>
+                            
+                            <p>Листовой строительный материал – это плиты определенных размеров, используемые как в строительстве, так и для отделочных работ. Такой материал необходим для:</p>
+
+                            <ul> 
+                                <li>обшивки стен, потолков;</li> 
+                                <li>создания межкомнатных перегородок;</li> 
+                            </ul>
+
+                            <h3>Большой ассортимент листовых материалов в Хоть-строй</h3> 
+
+                            <p>В нашем каталоге Вы найдете качественные листовые материалы, купить которые Вы сможете по самой выгодной цене в Москве:</p> 
+
+                            <ul> 
+                                <li>гипсокартон – гипс, с двух сторон оклеенный картоном. Может быть использован исключительно для внутренних работ, так как не обладает достаточной влагостойкостью. Толщина листа может находиться в диапазоне 7 – 12 мм. Чаще всего применяется для создания идеально ровной поверхности стен, сооружения подвесных потолков, создания перегородок;</li> 
+                                <li>ГВЛ (гипсоволокнистые листы) – основу составляет гипс с распущенной целлюлозой. Характеризуется значительно более высокой прочностью, влаго- и огнестойкостью, чем ГКЛ. Как правило, используется в качестве основы для обустройства напольного покрытия. Имеет толщину не менее 1 см.</li> 
+                            </ul> 
+
+                            <p>Чтобы купить подходящий листовой материал, определите подходящие параметры, в частности размеры и влагостойкость. Приобрести товар можно онлайн, оплатив удобным для Вас способом и воспользовавшись услугой адресной доставки от нашей компании. Также Вы можете лично посетить ближайший магазин Хоть-строй.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+
+
+
+
+    <footer class="footer">
+        <div class="footer-main-content">
+            <div class="footer-column">
+                <p style="font-weight: 500;"><a style="color: #FC5454;">H</a>ot - <a style="color: #FC5454;">S</a>troi - это магазин стройтельных материалов </p>
+                <p style="margin-top: 5%;">Copyright © 2020 </p>
+                <p>Принимаем к оплате</p>
+                <div class="pay">
+                    <i style="color: red;" class="fab fa-cc-visa fa-2x"></i>
+                    <i style="color: red;" class="fab fa-cc-mastercard fa-2x"></i>
+                </div>
+            </div>
+
+            <div class="footer-column">
+                <p>Каталог</p>
+                <p><a href="./materials.html">Стройматериалы</a></p>
+                <p><a href="./garden.html">Сад</a></p>
+                <p><a href="./water.html"></a>Водоснабжение</p>
+                <p><a href="./tile.html">Плитка</a></p>
+                <p><a href="./kitchen.html">Кухня</a></p>
+            </div>
+            <div class="footer-column">
+                <p>Клиентам</p>
+                <p>Каталог</p>
+                <p>о нас</p>
+                <p>Оплата и доставка</p>
+                <p>Обмен и возврат</p>
+                <p>Мы в соцсетях</p>
+            </div>
+            <div class="footer-column">
+                <p>Контактная информация</p>
+                <p>+7 800 143 45 67</p>
+                <p>Перезвонить вам?</p>
+                <p>Эл. почта: ihot-stro@gmail.com
+                    Skype: hotstroi24</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="footer-bottom-mobile">
+                <p><i style="color: red;" class="fas fa-mobile-alt fa-3x"></i> Мобильная версия</p>
+            </div>
+            <div class="feedback">
+                <button id="feed-button" class="open-feed jump" data-toggle-id="subscribe">
+                    Обратная связь
+                </button>
+            </div>
+            <div style="margin-bottom: 2%" class="footer-bottom-social">
+                <i style="color: red;" class="fab fa-vk fa-3x"></i>
+                <i style="color: red;" class="fab fa-twitter fa-3x"></i>
+                <i style="color: red;" class="fab fa-telegram-plane fa-3x"></i>
+            </div>
+        </div>
+    </footer>
+
+    <div class="ufive-feedback">
+        <section id="feedback">
+            <h1>Форма обратной связи</h1>
+            <form>
+        
+                <div class="field name-box">
+                    <input type="text" id="name" placeholder="Как Вас зовут?" />
+                    <label for="name">Имя</label>
+                </div>
+            
+                <div class="field email-box">
+                    <input type="text" id="email" placeholder="Ваш e-mail адрес" />
+                    <label for="email">E-mail</label>
+                </div>
+            
+                <div class="field msg-box">
+                    <textarea id="msg" rows="4" placeholder="Излагайте ваш вопрос четко и подробно" /></textarea>
+                    <label for="msg">Текст</label>
+                </div>
+            
+                <input class="button" type="submit" value="Отправить" />
+            </form>
+        </section>
+    </div>
+
+    <footer class="footer-mobile">
+        <nav class="footer-mobile-nav">
+            <ul>
+                <li>
+                    <a style="color: #FC5454;" href="">+7 (800)-123-45-67</a>
+                </li>
+
+                <li>
+                    <a href="">Контактная информация</a>
+                </li>
+
+                <li>
+                    <a href="">Полная версия сайта</a>
+                </li>
+
+                <li>
+                    <a href="">О компании</a>
+                </li>
+
+                <li>
+                    <a href="">Copyright © 2020 </a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+
+    <footer class="footer-laptop">
+        <div style="margin-bottom: 5%;" class="footer-column">
+            <p style="font-weight: 500;"><a style="color: #FC5454;">H</a>ot - <a style="color: #FC5454;">S</a>troi - это магазин стройтельных материалов </p>
+            <p style="margin-top: 5%;">Copyright © 2020 </p>
+            <p>Принимаем к оплате</p>
+            <div class="pay">
+                <i style="color: red;" class="fab fa-cc-visa fa-2x"></i>
+                <i style="color: red;" class="fab fa-cc-mastercard fa-2x"></i>
+            </div>
+        </div>
+
+        <nav class="footer-mobile-nav">
+            <ul>
+                <li>
+                    <a style="color: #FC5454;" href="">+7 (800)-123-45-67</a>
+                </li>
+
+                <li>
+                    <a href="">Контактная информация</a>
+                </li>
+
+                <li>
+                    <a href="">Полная версия сайта</a>
+                </li>
+
+                <li>
+                    <a href="">О компании</a>
+                </li>
+
+                <li>
+                    <a href="">Copyright © 2020 </a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+
+
+
+
+    
+    <script src="/js/script.js"></script>
+
+    <script>
+        ( function () {
+    const burgerMenu = document.getElementsByClassName('b-menu')[0];
+    const burgerContain = document.getElementsByClassName('b-container')[0];
+    const burgerNav = document.getElementsByClassName('b-nav')[0];
+
+    burgerMenu.addEventListener('click', function toggleClasses() {
+        [document.body, burgerContain, burgerNav].forEach( function (el) {
+            el.classList.toggle('open');
+        });
+    }, false);
+})();
+
+
+//mobile
+( function () {
+    const burgerMenu = document.getElementsByClassName('b-menu-mobile')[0];
+    const burgerContain = document.getElementsByClassName('b-container-mobile')[0];
+    const burgerNav = document.getElementsByClassName('b-nav-mobile')[0];
+
+    burgerMenu.addEventListener('click', function toggleClasses() {
+        [document.body, burgerContain, burgerNav].forEach(function (el) {
+            el.classList.toggle('open');
+        });
+    }, false);
+})();
+    </script>
+</body>
+</html>

@@ -1,0 +1,1 @@
+const button=document.querySelector("#feed-button"),feedback=document.querySelector("body > div.ufive-feedback");function remove(){feedback.classList.toggle("open-feedback")}button.addEventListener("click",e=>{e.stopPropagation(),e.preventDefault(),button.textContent="Обратная связь",remove(),1!=feedback.classList.contains("open-feedback")||(button.textContent="Закрыть")});
